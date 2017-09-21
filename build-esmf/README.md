@@ -4,6 +4,7 @@ It is recommended that this build script be used with an Anaconda environment. I
 
 ```
 conda create -n esmf-py3 -c nesii/channel/dev-esmf -c conda-forge esmpy python=3 gcc
+conda remove esmf esmpy
 ```
 
 Basic usage:
